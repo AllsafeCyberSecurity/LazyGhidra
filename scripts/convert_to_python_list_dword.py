@@ -33,11 +33,12 @@ while True:
 
     start = listing.getCodeUnitAt(start).getMaxAddress().add(1)
 
-hex_string += '00' * 3
+hex_string += '00' * 3 # zero padding
 
 for i in range(0, size*2, 8):
     if i % 64 == 0:
         output += "\n    "
+    # little endian
     output += "0x" 
     output += hex_string[i+6:i+8]
     output += hex_string[i+4:i+6]

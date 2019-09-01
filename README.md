@@ -15,10 +15,10 @@ Convert selected data into different formats:
 - C/C++ array
 - Python list
 
-This convert selected part of listing view to various formats.
+This convert selected part of `Listing` to various formats.
 
 ![listing](./screenshots/listing.png)
 
-When conversion is complete, scripts output the result to console.
+When conversion is complete, scripts output the result to `Console`.
 
 ![console](./screenshots/console.png)
