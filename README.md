@@ -1,5 +1,5 @@
 # LazyGhidra
-Make your Ghidra Lazy! LazyGhidra is inspired by [LazyIDA!](https://github.com/L4ys/LazyIDA).
+Make your Ghidra Lazy! LazyGhidra is inspired by [LazyIDA](https://github.com/L4ys/LazyIDA).
 
 ## Installation
 
@@ -10,10 +10,10 @@ Scripts will appear in the `LazyGhidra` category.
 
 ## Features
 
-- Convert selected data into different formats:
-  - hex string
-  - C/C++ array
-  - Python list
+Convert selected data into different formats:
+- hex string
+- C/C++ array
+- Python list
 
 This convert selected part of listing view to various formats.
 
