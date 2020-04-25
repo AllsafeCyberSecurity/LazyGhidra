@@ -1,4 +1,5 @@
 # Convert to hex string
+# @author: tkmru
 # @category: LazyGhidra
 
 if currentSelection is None:

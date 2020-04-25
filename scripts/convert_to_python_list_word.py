@@ -1,4 +1,5 @@
 # Convert to Python list (WORD)
+# @author: tkmru
 # @category: LazyGhidra
 
 if currentSelection is None:

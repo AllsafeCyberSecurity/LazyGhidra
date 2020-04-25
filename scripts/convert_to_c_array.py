@@ -1,4 +1,5 @@
 # Convert to C/C++ array (BYTE)
+# @author: tkmru
 # @category: LazyGhidra
 
 if currentSelection is None:

@@ -1,4 +1,5 @@
 # Convert to C/C++ array (WORD)
+# @author: tkmru
 # @category: LazyGhidra
 
 if currentSelection is None:

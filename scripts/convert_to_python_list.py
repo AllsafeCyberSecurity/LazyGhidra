@@ -1,4 +1,5 @@
 # Convert to Python list (BYTE)
+# @author: tkmru
 # @category: LazyGhidra
 
 if currentSelection is None:
