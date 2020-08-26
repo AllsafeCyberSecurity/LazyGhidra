@@ -8,17 +8,32 @@ Scripts will appear in the `LazyGhidra` category.
 
 ![script_manager](./screenshots/script_manager.png)
 
-## Features
-
-Convert selected data into different formats:
-- hex string
-- C/C++ array
-- Python list
+## Features 
+- Convert selected data into different formats:
+  - hex string
+  - C/C++ array
+  - Python list
 
 This convert selected part of `Listing` to various formats.
 
-![listing](./screenshots/listing.png)
+![converter-listing](./screenshots/converter_listing.png)
 
 When conversion is complete, scripts output the result to `Console`.
 
-![console](./screenshots/console.png)
+![converter-console](./screenshots/converter_console.png)
+
+- Check dangerous functions with possible buffer overflows
+  - getpw
+  - gets
+  - sprintf
+  - strcat
+  - strcpy
+  - vsprinf
+
+The results are output to `Console`.
+
+![checker](./screenshots/checker.png)
+
+It is also reflected in `Bookmarks`.
+
+![checker_bookmarks](./screenshots/checker_bookmarks.png)
