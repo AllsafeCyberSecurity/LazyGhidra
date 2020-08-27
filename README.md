@@ -22,7 +22,7 @@ When conversion is complete, scripts output the result to `Console`.
 
 ![converter-console](./screenshots/converter_console.png)
 
-- Check dangerous functions with possible buffer overflows
+- Check potentially buffer overflow functions:
   - getpw
   - gets
   - sprintf
